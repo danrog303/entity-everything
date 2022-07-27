@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="entity_everything",
-    version="2.0.0",
+    version="2.0.1",
     author="Daniel Rogowski",
     description="Python tool for encoding text to HTML entities",
     long_description=long_description,
