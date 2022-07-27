@@ -1,7 +1,7 @@
 # entity-everything
 ![CI](https://github.com/danrog303/entity-everything/actions/workflows/build.yml/badge.svg)
 ![Activity](https://shields.io/github/last-commit/danrog303/entity-everything)
->  Easy to use tool for encoding text to html entities and html entities to normal text. 
+>  Easy to use tool for encoding text to html entities and decoding html entities to normal text. 
 
 ## ✨ Features
 1. Encoding & decoding of text passed as an argument
@@ -13,7 +13,7 @@ There are plenty of online tools on the Internet for encoding text to html entit
 If for some reason you want to convert letters and numbers to entities as well, "entity-everything" is the script for you.
 
 ## 💻 How to download?
-Project is available on PyPi, so you can install entity-everything using pip:
+Project is available on PyPI, so you can install entity-everything using pip:
 ```
 $ python -m pip install entity_everything
 ```
@@ -24,7 +24,7 @@ $ python -m pip install entity_everything
 ```
 $ python -m entity_everything encode "Text to encode"
 or
-$ echo "Text to decoode" | python -m entity_everything encode
+$ echo "Text to decode" | python -m entity_everything encode
 ```
 ```
 Result: "&#84;&#101;&#120;&#116;&#32;&#116;&#111;&#32;&#101;&#110;&#99;&#111;&#100;&#101;"
